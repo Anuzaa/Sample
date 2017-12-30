@@ -1,0 +1,15 @@
+<div class="container">
+  <h2>Guest Information</h2>
+            
+  <table class="table table-condensed" border="3">
+      <tr class="success">
+        <th>Id</th>
+        <th>name</th>
+        </tr> 
+        <tr *ngFor ="let h of homes">
+          <td>{{h.id}}</td>
+          <td>{{h.name}}</td>
+        </tr>
+  </table>
+</div>
+
